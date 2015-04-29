@@ -31,11 +31,7 @@ class home_controller extends CI_Controller {
     public function about_us() {
         $this->load->view("about_us");
     }
-    
-    public function contact_us() {
-        $this->load->view("contact_us");
-    }
-    
+
     public function services() {
         $this->load->view("services");
     }

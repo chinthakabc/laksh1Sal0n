@@ -259,10 +259,10 @@
                                     <!--About Us End-->
                                     
                                     <!--Contact Us Starts-->
-                                    <li id="menu-item-4800" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-simple-parent <?php echo $currentPage=="contact_us"?"current-menu-item":"";?>"><a href="<?php echo site_url("home_controller/contact_us");?>"><i class='menu-icon fa fa-paste'></i>Contact Us<span class="menu-item-description">Contact Lakshi Salon</span></a>
+                                    <li id="menu-item-4800" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-simple-parent <?php echo $currentPage=="contact_us"?"current-menu-item":"";?>"><a href="<?php echo site_url("contactUs_controller/contact_us");?>"><i class='menu-icon fa fa-paste'></i>Contact Us<span class="menu-item-description">Contact Lakshi Salon</span></a>
                                         <ul class="sub-menu">
-                                            <li id="menu-item-4801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="<?php echo site_url("home_controller/contact_us");?>">Contact Us</a></li>
-                                            <li id="menu-item-4802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-1"><a href="<?php echo site_url("appointment_controller/");?>">Make an Appoinment</a></li>
+                                            <li id="menu-item-4801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="<?php echo site_url("contactUs_controller/contact_us");?>">Contact Us</a></li>
+                                            <li id="menu-item-4802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-1"><a href="<?php echo site_url("contactUs_controller/");?>">Make an Appoinment</a></li>
                                             <li id="menu-item-4803" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="http://wedesignthemes.com/themes/dt-spalab/catalog-type-ii/">Careers</a></li>
                                         </ul>
                                         <a class="dt-menu-expand">+</a></li>
