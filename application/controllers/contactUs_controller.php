@@ -33,4 +33,8 @@ class contactUs_controller extends CI_Controller{
         //put your code here
         echo "under Construction";
     }
+    
+    public function career() {
+        $this->load->view('career');
+    }
 }
