@@ -19,9 +19,9 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, th a:hov
 
 .dt-sc-callout-box.type5, .dt-sc-team:hover, ul.time-table > li:after { background: #f3e9f7; }
 
-.floral-head:before, .floral-head.aligncenter:after, .dt-sc-counter h5 span:after, .dt-sc-counter h5 span:before { background-image: url(images/floral-head-bg.png); }
+.floral-head:before, .floral-head.aligncenter:after, .dt-sc-counter h5 span:after, .dt-sc-counter h5 span:before { background-image: url(../img/floral-head-bg.png); }
 
-.dt-sc-team .image:after { background-image: url(images/bg-team-image.png); }
+.dt-sc-team .image:after { background-image: url(../img/bg-team-image.png); }
 
 #header.header1, #header.header5, input[type="submit"], button, input[type="button"], h5.dt-sc-toggle:before, h5.dt-sc-toggle-accordion:before, .dt-sc-button, .dt-sc-infographic-bar .dt-sc-bar, .bx-controls a.bx-prev, .bx-controls a.bx-next, .dt-sc-counter h5 span, .copyright, .skin-bg { background-color: #72448d; }
 
@@ -59,9 +59,9 @@ input[type="submit"]:hover, input[type="button"]:hover, button:hover, #newslette
  
 ul.products li:hover .product-details .add_to_cart_button, ul.products li:hover .product-details .button, ul.products li:hover .product-details .yith-wcwl-add-to-wishlist a, .product .summary .add_to_wishlist, #reviews a.button, .woocommerce-message .button, .woocommerce-error .button, .woocommerce-info .button, .woocommerce table .button, .product.woocommerce .button, ul.products li .product-thumb .onsale, .single-product .product > .onsale, .product-categories li span, .woocommerce-message:before, .woocommerce-info:before { background-color: #72448d; }
 
-ul.products li .product-details .add_to_cart_button { background-image: url(images/cart-ico.png);  }
-ul.products li .product-details .yith-wcwl-add-to-wishlist a { background-image: url(images/addtowishlist.png);  }
-ul.products li .product-details .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a, ul.products li .product-details .yith-wcwl-wishlistaddedbrowse a { background-image: url(images/addedtowishlist.png); }
+ul.products li .product-details .add_to_cart_button { background-image: url(../img/cart-ico.png);  }
+ul.products li .product-details .yith-wcwl-add-to-wishlist a { background-image: url(../img/addtowishlist.png);  }
+ul.products li .product-details .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a, ul.products li .product-details .yith-wcwl-wishlistaddedbrowse a { background-image: url(../img/addedtowishlist.png); }
 
 .product .summary .add_to_wishlist:hover, #reviews a.button:hover, .woocommerce-message .button:hover, .woocommerce-error .button:hover, .woocommerce-info .button:hover, .woocommerce table .button:hover, .product.woocommerce .button:hover, .product .summary .add_to_wishlist:hover:before { background-color: #56336b; }
 
@@ -99,7 +99,7 @@ ul.products li .product-details .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistex
 	only screen and (min-devicepixel-ratio: 1.5), 
 	only screen and (min-resolution: 1.5dppx) {
 		
-		.floral-head:before, .floral-head.aligncenter:after, .dt-sc-counter h5 span:after, .dt-sc-counter h5 span:before { background-image: url(images/floral-head-bg@2x.png); background-size: 74px 51px; }			
-		.dt-sc-team .image:after { background-image: url(images/bg-team-image@2x.png); background-size: 179px 53px; }
+		.floral-head:before, .floral-head.aligncenter:after, .dt-sc-counter h5 span:after, .dt-sc-counter h5 span:before { background-image: url(../img/floral-head-bg@2x.png); background-size: 74px 51px; }			
+		.dt-sc-team .image:after { background-image: url(../img/bg-team-image@2x.png); background-size: 179px 53px; }
 		
 	}

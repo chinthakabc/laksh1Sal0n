@@ -1,7 +1,7 @@
 <html>
 
     <!--Loading header-->
-    <?php require_once 'header.php'; ?>
+    <?php $this->load->view('header'); ?>
 
     
     <!-- **Main** -->

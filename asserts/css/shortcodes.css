@@ -1,4 +1,4 @@
-d@charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
 
 /*----*****---- << Shortcodes >> ----*****----*/
@@ -1050,7 +1050,7 @@ d@charset "utf-8";
 	only screen and (min-devicepixel-ratio: 1.5), 
 	only screen and (min-resolution: 1.5dppx) {
 		
-		.dt-sc-hr.floral-grey { background-image: url(../images/hr-floral-grey-bg@2x .png); background-size: 100%; }
+		/*.dt-sc-hr.floral-grey { background-image:url(../img/hr-floral-grey-bg@2x .png); background-size: 100%; }*/
 		ul.dt-sc-tabs-vertical-frame { background-image:url(../images/bg-vertical-tabs@2x.png); background-size: 100% 100%; }
 		h5.dt-sc-toggle:before, h5.dt-sc-toggle-accordion:before { background-image: url(../images/toggle-icon@2x.png); background-size: 40px 40px; }
 		.menu-sidebar ul.j-load-all:after { background-image: url(../images/sticky-sidebar-bg@2x.png); background-size: 271px 15px; }

@@ -6,10 +6,10 @@
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="http://wedesignthemes.com/themes/dt-spalab/xmlrpc.php" />            <style>
         .wishlist_table .add_to_cart, .yith-wcwl-add-button > a.button.alt { border-radius: 16px; -moz-border-radius: 16px; -webkit-border-radius: 16px; }            </style>
-    <script type="text/javascript">
+<!--    <script type="text/javascript">
         var yith_wcwl_plugin_ajax_web_url = 'http://wedesignthemes.com/themes/dt-spalab/wp-admin/admin-ajax.php';
         var login_redirect_url = 'http://wedesignthemes.com/themes/dt-spalab/wp-login.php?redirect_to=%2Fthemes%2Fdt-spalab%2Fshortcodes%2F';
-    </script>
+    </script>-->
 
 
     <link href="<?php echo site_url("asserts/img/favicon.ico"); ?>" rel='shortcut icon' type='image/x-icon' />
@@ -35,7 +35,7 @@
     <link rel='stylesheet' id='yith-wcwl-main-css'  href="<?php echo site_url("asserts/css/style_woo.css?ver=4.1.4"); ?>" type='text/css' media='all' />
     <link rel='stylesheet' id='default-css'  href="<?php echo site_url("asserts/css/style_theme.css?ver=4.1.4"); ?>" type='text/css' media='all' />
     <link rel='stylesheet' id='skin-css'  href="<?php echo site_url("asserts/css/style_purple.css?ver=4.1.4"); ?>" type='text/css' media='all' />
-    <link rel='stylesheet' id='custom-font-awesome-css'  href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css?ver=4.1.4" type='text/css' media='all' />
+    <link rel='stylesheet' id='custom-font-awesome-css'  href="<?php echo site_url("asserts/css/font-awesome.min.css?ver=4.1.4"); ?> type='text/css' media='all' />
 
     <link rel='stylesheet' id='responsive-css'  href="<?php echo site_url("asserts/css/responsive.css?ver=4.1.4"); ?>" type='text/css' media='all' />
     <link rel='stylesheet' id='mytheme-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Lato:300,400,700%7CRaleway:400,500,300,600%7CTangerine:400,700%7CRoboto' type='text/css' media='all' />
@@ -245,7 +245,7 @@
                                     <!--Services End-->
                                     
                                     
-                                    <li id="menu-item-4606" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-0 menu-item-simple-parent "><a href="<?php echo site_url("home_controller/courses") ?>"><i class='menu-icon fa fa-clock-o'></i>Courses<span class="menu-item-description">Courses We offered</span></a></li>
+                                    <li id="menu-item-4606" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-0 menu-item-simple-parent "><a href="<?php echo site_url("courses_controller/") ?>"><i class='menu-icon fa fa-clock-o'></i>Courses<span class="menu-item-description">Courses We offered</span></a></li>
                                     
                                     <!--Gallery Starts-->
                                     <li id="menu-item-4693" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-simple-parent "><a href="http://wedesignthemes.com/themes/dt-spalab/pages/about-us/"><i class='menu-icon fa fa-paste'></i>Gallery<span class="menu-item-description">We offer</span></a>
@@ -275,7 +275,7 @@
                                     <li id="menu-item-4800" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-simple-parent "><a href="<?php echo site_url("home_controller/contact_us");?>"><i class='menu-icon fa fa-paste'></i>Contact Us<span class="menu-item-description">Contact Lakshi Salon</span></a>
                                         <ul class="sub-menu">
                                             <li id="menu-item-4801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="<?php echo site_url("home_controller/contact_us");?>">Contact Us</a></li>
-                                            <li id="menu-item-4802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-1"><a href="http://wedesignthemes.com/themes/dt-spalab/catalog-type-i/">Make an Appoinment</a></li>
+                                            <li id="menu-item-4802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-1"><a href="<?php echo site_url("appointment_controller/");?>">Make an Appoinment</a></li>
                                             <li id="menu-item-4803" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="http://wedesignthemes.com/themes/dt-spalab/catalog-type-ii/">Careers</a></li>
                                         </ul>
                                         <a class="dt-menu-expand">+</a></li>

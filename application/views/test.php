@@ -123,7 +123,7 @@ var like_this_ajax_object = {"ajax_url":"http:\/\/wedesignthemes.com\/themes\/dt
                             <a href="http://wedesignthemes.com/themes/dt-spalab" title="spa lab">
                                 <img class="normal_logo" src="http://wedesignthemes.com/themes/dt-spalab/wp-content/themes/spalab-v1.4/images/logo.png" alt="spa lab" title="spa lab" />
                                 <img class="retina_logo" src="http://wedesignthemes.com/themes/dt-spalab/wp-content/themes/spalab-v1.4/images/logo@2x.png" alt="spa lab"
-                    	 							title="spa lab" style="width:156px height:73px"/>
+                    	 							title="spa lab" style="width:156px; height:73px"/>
                             </a>
                                 </div><!-- **Logo - End** -->
     
