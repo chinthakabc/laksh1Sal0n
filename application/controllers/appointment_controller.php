@@ -21,4 +21,9 @@ class appointment_controller extends CI_Controller{
     public function index() {
         $this->load->view ('appointment');
     }
+    
+    public function do_appointment () {
+        //put your code here
+        echo "under Construction";
+    }
 }

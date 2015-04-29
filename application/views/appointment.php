@@ -28,7 +28,7 @@
                     <div  class='column dt-sc-two-third  first'><h3>Appointment Form</h3>
                         <div class="wpcf7" id="wpcf7-f4088-p247-o1" lang="en-US" dir="ltr">
                             <div class="screen-reader-response"></div>
-                            <form name="" action="/themes/dt-spalab/appointments/#wpcf7-f4088-p247-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                            <form name="" action="<?php echo site_url("appointment_controller/do_appointment");?>" method="post" class="wpcf7-form" novalidate="novalidate">
                                 <div style="display: none;">
                                     <input type="hidden" name="_wpcf7" value="4088" />
                                     <input type="hidden" name="_wpcf7_version" value="4.1" />
