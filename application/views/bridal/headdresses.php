@@ -42,7 +42,7 @@
                     <!-- #post-2125 -->
                     <div id="post-2125" class="post-2125 page type-page status-publish hentry">
                         <h2>Head Dresses</h2>
-                        <img class="aligncenter size-full wp-image-234" src="<?php echo site_url("uploads/images/9.gif"); ?>" alt="image" width="750" height="497" /><br />
+                        <img class="aligncenter size-full wp-image-234" src="<?php echo site_url("uploads/bridal/headdresses.jpg"); ?>" alt="image" width="680" height="452" /><br />
                         <div class="dt-sc-titled-box  " ><h6 class="dt-sc-titled-box-title">Description</h6>
                             <div class="dt-sc-titled-box-content">
                                 <p> As with all our designs, headdresses can be made to match or co-ordinate with the bouquets or the flower theme & colour scheme of your 

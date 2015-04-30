@@ -42,7 +42,7 @@
                     <!-- #post-2125 -->
                     <div id="post-2125" class="post-2125 page type-page status-publish hentry">
                         <h2>Bouquets</h2>
-                        <img class="aligncenter size-full wp-image-234" src="<?php echo site_url("uploads/images/9.gif"); ?>" alt="image" width="750" height="497" /><br />
+                        <img class="aligncenter size-full wp-image-234" src="<?php echo site_url("uploads/bridal/bouquets.jpg"); ?>" alt="image" width="680" height="452" /><br />
                         <br/>
                         
                         <div class="column dt-sc-one-half  first" height="600px"><div class="dt-sc-pr-tb-col ">	
