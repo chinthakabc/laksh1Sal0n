@@ -4,7 +4,7 @@
 
     <!-- **Main** -->
     <div id="main"><!-- **Breadcrumb** --><section class="breadcrumb-section">	<div class="container"><div class="breadcrumb">				
-                    <a href="<?php echo site_url("home_controller/") ?>">Home</a><span class='fa fa-angle-double-right' >  </span><h6>Appointments</h6></div><!-- ** breadcrumb - End --><!-- **Searchform** -->
+                    <a href="<?php echo site_url("home/") ?>">Home</a><span class='fa fa-angle-double-right' >  </span><h6>Appointments</h6></div><!-- ** breadcrumb - End --><!-- **Searchform** -->
 
                 <form method="get" class="searchform" action="http://wedesignthemes.com/themes/dt-spalab">
                     <input id="s-keyword" name="s" type="text" 

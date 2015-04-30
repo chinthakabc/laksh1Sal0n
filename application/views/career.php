@@ -4,7 +4,7 @@
 
     <!-- **Main** -->
     <div id="main"><!-- **Breadcrumb** --><section class="breadcrumb-section">	<div class="container"><div class="breadcrumb">				
-                    <a href="<?php echo site_url("home_controller/") ?>">Home</a><span class='fa fa-angle-double-right' >  </span><h6>Appointments</h6></div><!-- ** breadcrumb - End --><!-- **Searchform** -->
+                    <a href="<?php echo site_url("home/") ?>">Home</a><span class='fa fa-angle-double-right' >  </span><h6>Appointments</h6></div><!-- ** breadcrumb - End --><!-- **Searchform** -->
 
                 <form method="get" class="searchform" action="http://wedesignthemes.com/themes/dt-spalab">
                     <input id="s-keyword" name="s" type="text" 
@@ -64,7 +64,7 @@
                                 
                                 <div class="column dt-sc-one-half">
                                     <span class="wpcf7-form-control-wrap phone-no">
-                                        <input type="tel" name="phone-no" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Phone (required)" />
+                                        <input type="tel" name="phone-no" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Phone (optional)" />
                                     </span>
                                 </div>
                                 <div class="clear"> </div>
@@ -86,7 +86,7 @@
                                 <div class="hr-invisible-very-small"> </div>
                                 <p><input type="submit" value="Apply" class="wpcf7-form-control wpcf7-submit" /></p>
                                 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div>
-                    <div  class='column dt-sc-one-third  '><h3>Book an Appointment</h3>
+                    <div  class='column dt-sc-one-third  '><h3>Contact Details</h3>
                         <div class="dt-sc-appointment"><p class="dt-sc-contact-info"><i class='fa fa-phone'></i>Phone : <span>045 2233333
                             /045 2233332  </span></p>
                             <p class="dt-sc-contact-info"><i class='fa fa-mobile-phone'></i>Mobile : <span>0714 310 800</span></p>

@@ -16,7 +16,7 @@
                         <div class="blog-entry-inner">
 
                             <div class="entry-meta">
-                                <a href="<?php echo site_url("home_controller/about_us");?>" title="About Lakshi Salon Ratnapura" class="entry_format"> </a>
+                                <a href="<?php echo site_url("aboutUs/");?>" title="About Lakshi Salon Ratnapura" class="entry_format"> </a>
                                 <div class="date">
                                     <p> Dec 17 <span> 2014 </span> </p>
                                 </div>

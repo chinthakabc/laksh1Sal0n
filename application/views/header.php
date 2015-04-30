@@ -83,7 +83,7 @@
                         <!-- **Logo - End** -->
                         <div id="logo">
 
-                            <a href="<?php echo site_url("home_controller/") ?>" title="Lakshi Salon Ratnapura">
+                            <a href="<?php echo site_url("home/") ?>" title="Lakshi Salon Ratnapura">
                                 <img class="normal_logo" src="<?php echo site_url("/uploads/2014/12/Head-10-X-10-cm-Colored1.png") ?>" alt="Lakshi Salon Ratnapura" title="Lakshi Salon Ratnapura" />
                                 <!--<img class="retina_logo" src="http://wedesignthemes.com/themes/dt-spalab/wp-content/themes/spalab-v1.4/images/logo@2x.png" alt="spa lab"-->
                                 <!--title="spa lab" style="width:156px; height:73px"/>-->
@@ -96,25 +96,25 @@
                                 <div class="dt-menu-toggle" id="dt-menu-toggle">
                                     <span class="dt-menu-toggle-icon"></span>
                                 </div>
-                                <?php $currentPage = $this->uri->segment(2); //echo $currentPage ;?>
-                                <ul id="menu-main-menu" class="menu rounded"><li id="menu-item-3967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent <?php echo $currentPage=="home_c"?"current-menu-item":"";?>"><a href="<?php echo site_url("home_controller/") ?>"><i class='menu-icon fa fa-home'></i>Home<span class="menu-item-description">Welcome</span></a>
+                                <?php $currentPage = $this->uri->segment(1); //echo $currentPage ;?>
+                                <ul id="menu-main-menu" class="menu rounded"><li id="menu-item-3967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent <?php echo $currentPage=="home_c"?"current-menu-item":"";?>"><a href="<?php echo site_url("home/") ?>"><i class='menu-icon fa fa-home'></i>Home<span class="menu-item-description">Welcome</span></a>
 
                                         <a class="dt-menu-expand">+</a></li>
 
                                     <!--Treatments Starts-->
-                                    <li id="menu-item-45001" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-simple-parent <?php echo $currentPage=="treatment"?"current-menu-item":"";?>"><a href="http://wedesignthemes.com/themes/dt-spalab/pages/about-us/"><i class='menu-icon fa fa-paste'></i>Treatments<span class="menu-item-description">We offer</span></a>
+                                    <li id="menu-item-45001" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-simple-parent <?php echo $currentPage=="treatment"?"current-menu-item":"";?>"><a href="<?php echo site_url("treatments/") ?>"><i class='menu-icon fa fa-paste'></i>Treatments<span class="menu-item-description">We offer</span></a>
 
 
                                         <ul class="sub-menu">
-                                            <li id="menu-item-4502" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="http://wedesignthemes.com/themes/dt-spalab/pages/about-us/">Bridals</a>
-                                            <ul class="sub-menu">
+                                            <li id="menu-item-4502" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="<?php echo site_url("treatments/") ?>">Bridals</a>
+<!--                                            <ul class="sub-menu">
                                                 
                                                     <li id="menu-item-3986" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/catalog-type-i/">Make Up</a></li>
                                                     <li id="menu-item-3922" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Bouquets</a></li>
                                                     <li id="menu-item-3933" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Dress</a></li>
                                                     <li id="menu-item-3929" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Designing</a></li>
                                                     <li id="menu-item-3930" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Advices</a></li>
-                                                </ul>
+                                                </ul>-->
                                                 <a class="dt-menu-expand">+</a></li>
 
                                             <li id="menu-item-3910" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-1"><a href="http://wedesignthemes.com/themes/dt-spalab/catalog-type-i/">Facials</a>
@@ -232,7 +232,7 @@
                                     <!--Services End-->
                                     
                                     
-                                    <li id="menu-item-4606" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-0 menu-item-simple-parent <?php echo $currentPage=="courses"?"current-menu-item":"";?>"><a href="<?php echo site_url("courses_controller/") ?>"><i class='menu-icon fa fa-clock-o'></i>Courses<span class="menu-item-description">Courses We offered</span></a></li>
+                                    <li id="menu-item-4606" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-0 menu-item-simple-parent <?php echo $currentPage=="courses"?"current-menu-item":"";?>"><a href="<?php echo site_url("courses/") ?>"><i class='menu-icon fa fa-clock-o'></i>Courses<span class="menu-item-description">Courses We offered</span></a></li>
                                     
                                     <!--Gallery Starts-->
                                     <li id="menu-item-4693" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-simple-parent <?php echo $currentPage=="gallery"?"current-menu-item":"";?>"><a href="http://wedesignthemes.com/themes/dt-spalab/pages/about-us/"><i class='menu-icon fa fa-paste'></i>Gallery<span class="menu-item-description">We offer</span></a>
@@ -248,10 +248,10 @@
                                     <!--Gallery Ends-->
 
                                     <!--About Us-->
-                                    <li id="menu-item-4900" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-simple-parent <?php echo $currentPage=="about_us"?"current-menu-item":"";?>"><a href="<?php echo site_url("home_controller/about_us");?>"><i class='menu-icon fa fa-paste'></i>About Us<span class="menu-item-description">About Lakshi Salon</span></a>
+                                    <li id="menu-item-4900" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-simple-parent <?php echo $currentPage=="aboutUs"?"current-menu-item":"";?>"><a href="<?php echo site_url("aboutUs/");?>"><i class='menu-icon fa fa-paste'></i>About Us<span class="menu-item-description">About Lakshi Salon</span></a>
                                         <ul class="sub-menu">
-                                            <li id="menu-item-4901" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="<?php echo site_url("home_controller/about_us");?>">Lakshi Salon</a></li>
-                                            <li id="menu-item-4902" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-1"><a href="http://wedesignthemes.com/themes/dt-spalab/catalog-type-i/">Chairperson</a></li>
+                                            <li id="menu-item-4901" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="<?php echo site_url("aboutUs/");?>">Lakshi Salon</a></li>
+                                            <li id="menu-item-4902" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-1"><a href="<?php echo site_url("aboutUs/chairperson");?>">Chairperson</a></li>
                                             <li id="menu-item-4903" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="http://wedesignthemes.com/themes/dt-spalab/catalog-type-ii/">Crew</a></li>
                                         </ul>
                                         <a class="dt-menu-expand">+</a></li>
@@ -259,11 +259,11 @@
                                     <!--About Us End-->
                                     
                                     <!--Contact Us Starts-->
-                                    <li id="menu-item-4800" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-simple-parent <?php echo $currentPage=="contact_us"?"current-menu-item":"";?>"><a href="<?php echo site_url("contactUs_controller/contact_us");?>"><i class='menu-icon fa fa-paste'></i>Contact Us<span class="menu-item-description">Contact Lakshi Salon</span></a>
+                                    <li id="menu-item-4800" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-simple-parent <?php echo $currentPage=="contactUs"?"current-menu-item":"";?>"><a href="<?php echo site_url("contactUs/");?>"><i class='menu-icon fa fa-paste'></i>Contact Us<span class="menu-item-description">Contact Lakshi Salon</span></a>
                                         <ul class="sub-menu">
-                                            <li id="menu-item-4801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="<?php echo site_url("contactUs_controller/contact_us");?>">Contact Us</a></li>
-                                            <li id="menu-item-4802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-1"><a href="<?php echo site_url("contactUs_controller/appointment");?>">Make an Appoinment</a></li>
-                                            <li id="menu-item-4803" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="<?php echo site_url("contactUs_controller/career");?>">Careers</a></li>
+                                            <li id="menu-item-4801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="<?php echo site_url("contactUs/");?>">Contact Us</a></li>
+                                            <li id="menu-item-4802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-1"><a href="<?php echo site_url("contactUs/appointment");?>">Make an Appoinment</a></li>
+                                            <li id="menu-item-4803" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="<?php echo site_url("contactUs/career");?>">Careers</a></li>
                                         </ul>
                                         <a class="dt-menu-expand">+</a></li>
                                     <!--Contact Us End-->

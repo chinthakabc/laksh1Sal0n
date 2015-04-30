@@ -13,7 +13,7 @@ Text Domain: dt_themes
 @charset "utf-8";
 /* CSS Document */
 
-@import "css/reset.css";
+@import "../css/reset.css";
 
 /*----*****---- << General >> ----*****----*/
 
