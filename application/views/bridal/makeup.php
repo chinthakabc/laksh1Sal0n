@@ -42,7 +42,7 @@
                     <!-- #post-2125 -->
                     <div id="post-2125" class="post-2125 page type-page status-publish hentry">
                         <h2>Make Up</h2>
-                        <img class="aligncenter size-full wp-image-234" src="<?php echo site_url("uploads/images/9.gif"); ?>" alt="image" width="750" height="497" /><br />
+                        <img class="aligncenter size-full wp-image-234" src="<?php echo site_url("uploads/bridal/9.gif"); ?>" alt="image" width="750" height="497" /><br />
                         <div class="dt-sc-titled-box  " ><h6 class="dt-sc-titled-box-title">Dressing Hair & Makeups</h6>
                             <div class="dt-sc-titled-box-content">
                                 <p> We provide a mobile wedding make up service. The trial is essential as it allows Lakshi to get an idea of your requirements and determine exactly 

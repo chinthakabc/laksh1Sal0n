@@ -11,7 +11,8 @@
         var login_redirect_url = 'http://wedesignthemes.com/themes/dt-spalab/wp-login.php?redirect_to=%2Fthemes%2Fdt-spalab%2Fshortcodes%2F';
     </script>-->
 
-
+    <script src="<?php echo site_url("asserts/js/jquery-2.1.3.min.js"); ?>"> </script>
+    
     <link href="<?php echo site_url("asserts/img/favicon.ico"); ?>" rel='shortcut icon' type='image/x-icon' />
     <!--<link href='http://wedesignthemes.com/themes/dt-spalab/wp-content/themes/spalab-v1.4/images/apple-touch-icon.png' rel='apple-touch-icon-precomposed'/>
     <link href='http://wedesignthemes.com/themes/dt-spalab/wp-content/themes/spalab-v1.4/images/apple-touch-icon-114x114.png' sizes='114x114' rel='apple-touch-icon-precomposed'/>
@@ -35,7 +36,7 @@
     <link rel='stylesheet' id='yith-wcwl-main-css'  href="<?php echo site_url("asserts/css/style_woo.css?ver=4.1.4"); ?>" type='text/css' media='all' />
     <link rel='stylesheet' id='default-css'  href="<?php echo site_url("asserts/css/style_theme.css?ver=4.1.4"); ?>" type='text/css' media='all' />
     <link rel='stylesheet' id='skin-css'  href="<?php echo site_url("asserts/css/style_purple.css?ver=4.1.4"); ?>" type='text/css' media='all' />
-    <link rel='stylesheet' id='custom-font-awesome-css'  href="<?php echo site_url("asserts/css/font-awesome.min.css?ver=4.1.4"); ?> type='text/css' media='all' />
+    <link rel='stylesheet' id='custom-font-awesome-css'  href="<?php echo site_url("asserts/css/font-awesome.min.css?ver=4.1.4"); ?>" type='text/css' media='all' />
 
     <link rel='stylesheet' id='responsive-css'  href="<?php echo site_url("asserts/css/responsive.css?ver=4.1.4"); ?>" type='text/css' media='all' />
     <link rel='stylesheet' id='mytheme-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Lato:300,400,700%7CRaleway:400,500,300,600%7CTangerine:400,700%7CRoboto' type='text/css' media='all' />
@@ -97,7 +98,7 @@
                                     <span class="dt-menu-toggle-icon"></span>
                                 </div>
                                 <?php $currentPage = $this->uri->segment(1); //echo $currentPage ;?>
-                                <ul id="menu-main-menu" class="menu rounded"><li id="menu-item-3967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent <?php echo $currentPage=="home_c"?"current-menu-item":"";?>"><a href="<?php echo site_url("home/") ?>"><i class='menu-icon fa fa-home'></i>Home<span class="menu-item-description">Welcome</span></a>
+                                <ul id="menu-main-menu" class="menu rounded"><li id="menu-item-3967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent <?php echo $currentPage=="home"?"current-menu-item":"";?>"><a href="<?php echo site_url("home/") ?>"><i class='menu-icon fa fa-home'></i>Home<span class="menu-item-description">Welcome</span></a>
 
                                         <a class="dt-menu-expand">+</a></li>
 
@@ -117,9 +118,9 @@
                                                 </ul>-->
                                                 <a class="dt-menu-expand">+</a></li>
 
-                                            <li id="menu-item-3910" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-1"><a href="http://wedesignthemes.com/themes/dt-spalab/catalog-type-i/">Facials</a>
-                                                <ul class="sub-menu">
-                                                    <li id="menu-item-4503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/catalog-type-i/">Herbal</a></li>
+                                            <li id="menu-item-3910" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-1"><a href="<?php echo site_url("treatments/facial/1") ?>">Facials</a>
+<!--                                                <ul class="sub-menu">
+                                                    <li id="menu-item-4503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="<?php echo site_url("treatments/facial/1") ?>">Herbal</a></li>
                                                     <li id="menu-item-4504" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Herbal Bleaching</a></li>
                                                     <li id="menu-item-4505" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Galvanic</a></li>
                                                     <li id="menu-item-4506" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Microderma</a></li>
@@ -127,13 +128,13 @@
                                                     <li id="menu-item-4508" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Silver</a></li>
                                                     <li id="menu-item-4509" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Perl</a></li>
                                                     <li id="menu-item-4510" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Chocolate</a></li>
-                                                </ul>
+                                                </ul>-->
                                                 <a class="dt-menu-expand">+</a></li>
 
                                             
-                                            <li id="menu-item-4520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="http://wedesignthemes.com/themes/dt-spalab/catalog-type-ii/">Facial Treatments</a>
+                                            <li id="menu-item-4520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="<?php echo site_url("treatments/facial_treatments/1") ?>">Facial Treatments</a>
                                             
-                                            <ul class="sub-menu">
+<!--                                            <ul class="sub-menu">
                                                     <li id="menu-item-4509" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/catalog-type-i/">High Frequency</a></li>
                                                     <li id="menu-item-4510" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Ultrasonic</a></li>
                                                     <li id="menu-item-4511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Warts Remover</a></li>
@@ -145,11 +146,11 @@
                                                     <li id="menu-item-4517" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Scars</a></li>
                                                     <li id="menu-item-4518" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Wrinkles</a></li>
                                                     <li id="menu-item-4519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Eye Treatments</a></li>
-                                                </ul>
+                                                </ul>-->
                                                 <a class="dt-menu-expand">+</a></li>
                                             
-                                            <li id="menu-item-4521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="http://wedesignthemes.com/themes/dt-spalab/catalog-type-iii/">Hair Cuts</a>
-                                            <ul class="sub-menu">
+                                            <li id="menu-item-4521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="<?php echo site_url("treatments/haircuts/1") ?>">Hair Cuts</a>
+<!--                                            <ul class="sub-menu">
                                                     <li id="menu-item-4522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/catalog-type-i/">Layer</a></li>
                                                     <li id="menu-item-4523" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Bop</a></li>
                                                     <li id="menu-item-4524" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Feather</a></li>
@@ -157,11 +158,11 @@
                                                     <li id="menu-item-4526" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Donkey</a></li>
                                                     <li id="menu-item-4527" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">UV Trim</a></li>
                                                     <li id="menu-item-4528" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Baby</a></li>
-                                                </ul>
+                                                </ul>-->
                                                 <a class="dt-menu-expand">+</a></li>
                                     
-                                            <li id="menu-item-4529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="http://wedesignthemes.com/themes/dt-spalab/procedures/">Hair Styles</a>
-                                            <ul class="sub-menu">
+                                            <li id="menu-item-4529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="<?php echo site_url("treatments/hair_styles/1") ?>">Hair Styles</a>
+<!--                                            <ul class="sub-menu">
                                                     <li id="menu-item-4530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/catalog-type-i/">Re Bonding</a></li>
                                                     <li id="menu-item-4531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Straightning</a></li>
                                                     <li id="menu-item-4532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Perm</a></li>
@@ -170,38 +171,38 @@
                                                     <li id="menu-item-4535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Temporary Color/Curl/Straightning</a></li>
                                                     <li id="menu-item-4536" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Party</a></li>
                                                     <li id="menu-item-4537" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Fantacy</a></li>
-                                                </ul>
+                                                </ul>-->
                                                 <a class="dt-menu-expand">+</a></li>
                                             
-                                            <ul class="sub-menu">
+<!--                                            <ul class="sub-menu">
                                                         <li id="menu-item-3984" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/four-columns-gallery/">Henna</a></li>
                                                         <li id="menu-item-3932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/four-columns-gallery-with-lhs/">Oil Massage</a></li>
                                                         <li id="menu-item-3931" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/four-columns-gallery-with-rhs/">Right Sidebar</a></li>
                                                         <li id="menu-item-3923" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/four-columns-gallery-with-filter/">High Protein</a></li>
                                                         <li id="menu-item-3924" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/four-columns-gallery-with-pagination/">Anti Dandruff</a></li>
                                                         <li id="menu-item-3925" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/four-columns-gallery-with-pagination/">Massage</a></li>
-                                                    </ul>
+                                                    </ul>-->
                                             
                                             
-                                            <li id="menu-item-4538" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="http://wedesignthemes.com/themes/dt-spalab/procedures/">Hair Treatments</a>
-                                            <ul class="sub-menu">
+                                            <li id="menu-item-4538" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="<?php echo site_url("treatments/hair_treatments/1") ?>">Hair Treatments</a>
+<!--                                            <ul class="sub-menu">
                                                     <li id="menu-item-4539" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/catalog-type-i/">Henna</a></li>
                                                     <li id="menu-item-4540" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Oil Massage</a></li>
                                                     <li id="menu-item-4541" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Right Sidebar</a></li>
                                                     <li id="menu-item-4542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">High Protein</a></li>
                                                     <li id="menu-item-4543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Anti Dandruff</a></li>
                                                     <li id="menu-item-4544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Massage</a></li>
-                                                </ul>
+                                                </ul>-->
                                                 <a class="dt-menu-expand">+</a></li>
-                                            <li id="menu-item-4545" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-depth-1"><a href="http://wedesignthemes.com/themes/dt-spalab/spa-classification/polish-your-skin-to-perfection/">Hair Removal</a>
-                                            <ul class="sub-menu">
+                                            <li id="menu-item-4545" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-depth-1"><a href="<?php echo site_url("treatments/hair_removal/1") ?>">Hair Removal</a>
+<!--                                            <ul class="sub-menu">
                                                     <li id="menu-item-4545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/catalog-type-i/">Threading</a></li>
                                                     <li id="menu-item-4546" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Waxing</a></li>
                                                     <li id="menu-item-4547" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Eye Brow</a></li>
                                                     <li id="menu-item-4548" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Shaping</a></li>
-                                                </ul>
+                                                </ul>-->
                                                 <a class="dt-menu-expand">+</a></li>
-                                            <li id="menu-item-4549" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-depth-1"><a href="http://wedesignthemes.com/themes/dt-spalab/spa-classification/polish-your-skin-to-perfection/">Manicure</a>
+                                            <li id="menu-item-4549" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-depth-1"><a href="<?php echo site_url("treatments/manicure/1") ?>">Manicure</a>
                                             <ul class="sub-menu">
                                                     <li id="menu-item-4550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/catalog-type-i/">Hand Massage</a></li>
                                                     <li id="menu-item-4551" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-2"><a href="http://wedesignthemes.com/themes/dt-spalab/menu-with-two-columns/">Hand Treatment</a></li>
